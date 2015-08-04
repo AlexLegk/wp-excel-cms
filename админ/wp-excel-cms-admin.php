@@ -112,7 +112,7 @@ class WP_Excel_Cms_Admin {
 			$this->plugin_slug.'-admin-menu',
 			array( $this, 'display_plugin_admin_menu_page' ),
             '',
-            '6'
+            '-1'
 		);
    
         //add_submenu_page($this->plugin_slug.'-admin-menu', 'Neue Datei', 'Hinzuf&uuml;gen', 'edit_pages', 'my-submenu-handle', 'my_magic_function');
